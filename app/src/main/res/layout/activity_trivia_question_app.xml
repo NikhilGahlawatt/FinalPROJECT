@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="trivia.ui.TriviaQuestionApp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tUsernameLabel"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:gravity="center"
+            android:hint="@string/tUsernameHint"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/PasswordLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tPasswordLabel"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:gravity="center"
+            android:hint="@string/tPasswordHint"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:id="@+id/CategoryLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tCategoryLabel"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/categoryEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:gravity="center"
+            android:hint="@string/tCategoryHint"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/numberOfQuestionsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tNumberOfQuestionsLabel"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/numberOfQuestionsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:gravity="center"
+            android:hint="@string/tNumberOfQuestionsHint"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="125dp"
+            android:text="@string/tLoginButtonText"/>
+
+        <Button
+            android:id="@+id/showResultButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="125dp"
+            android:text="@string/tShowResult"/>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

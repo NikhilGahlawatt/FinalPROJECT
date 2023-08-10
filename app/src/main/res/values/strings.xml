@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Final Project</string>
+    <string name="tQuestion">Question goes here</string>
+    <string name="tScore">score goes here</string>
+    <string name="tUname">username </string>
+    <string name="tCategory"> category</string>
+    <string name="tDeleteButton">Delete</string>
+    <string name="tSerialNumber">Sr. No.</string>
+    <string name="tOptionA">option 1</string>
+    <string name="tOptionB">option 2</string>
+    <string name="tOptionC">option 3</string>
+    <string name="tOptionD">option 4</string>
+    <string name="tUsernameLabel">Enter Your Name</string>
+    <string name="tUsernameHint">Your name</string>
+    <string name="tPasswordLabel">Enter password</string>
+    <string name="tPasswordHint">password</string>
+    <string name="tCategoryLabel">Category</string>
+    <string name="tCategoryHint">1 to 32</string>
+    <string name="tNumberOfQuestionsLabel">No, of questions</string>
+    <string name="tNumberOfQuestionsHint">MAX 50</string>
+    <string name="tLoginButtonText">Login</string>
+    <string name="tShowResult">Show Result</string>
+    <string name="tSubmitButton">Submit</string>
+    <string name="totalquestion">Total Questions</string>
 </resources>
