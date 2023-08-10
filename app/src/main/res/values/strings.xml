@@ -12,8 +12,6 @@
     <string name="tOptionD">option 4</string>
     <string name="tUsernameLabel">Enter Your Name</string>
     <string name="tUsernameHint">Your name</string>
-    <string name="tPasswordLabel">Enter password</string>
-    <string name="tPasswordHint">password</string>
     <string name="tCategoryLabel">Category</string>
     <string name="tCategoryHint">1 to 32</string>
     <string name="tNumberOfQuestionsLabel">No, of questions</string>

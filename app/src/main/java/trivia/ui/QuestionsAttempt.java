@@ -66,7 +66,6 @@ public class QuestionsAttempt extends AppCompatActivity {
         }
         Intent fromPrevious = getIntent();
         String username = fromPrevious.getStringExtra("username");
-        String password = fromPrevious.getStringExtra("password");
         String category = fromPrevious.getStringExtra("category");
         String numberOfQuestions = fromPrevious.getStringExtra("numberOfQuestions");
         usernamecurrent = username;
@@ -173,10 +172,6 @@ public class QuestionsAttempt extends AppCompatActivity {
             Intent resultPage = new Intent(QuestionsAttempt.this, Result.class);
             resultPage.putExtra("responses", responses);
             startActivity(resultPage);
-        });
-        binding.showResultsButton.setOnClickListener(click->{
-            Intent showResult = new Intent(QuestionsAttempt.this, Results.class);
-            startActivity(showResult);
         });
     }
 
