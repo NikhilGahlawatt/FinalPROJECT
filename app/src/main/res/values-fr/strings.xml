@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="enter_airport_code">"Entrez le code de l'aéroport"</string>
+    <string name="search">Chercher</string>
+    <string name="saved">Sauvegardé</string>
+
+    <string name="destination_text">Destination Ici</string>
+    <string name="terminal_text">Terminal: Terminal Ici</string>
+    <string name="gate_text">Porte: Porte Ici</string>
+    <string name="delay_text">Retard: Retard Ici</string>
+    <string name="save_details_text">Sauvegarder les détails</string>
+
+    <string name="flight_number_label">Numéro de vol:</string>
+    <string name="flight_number">numéro_de_vol</string>
+    <string name="destination_label">Destination:</string>
+    <string name="destination_des">destination</string>
+    <string name="airline_logo_desc">Logo de la compagnie aérienne</string>
+
+    <string name="help_dialog_title">Aide</string>
+    <string name="help_dialog_message">"Entrez le code de l'aéroport et cliquez sur 'Chercher' pour rechercher des vols. Cliquez sur 'Sauvegardé' pour voir les vols sauvegardés."</string>
+
+    <string name="delete">Supprimer</string>
+    <string name="save">Sauvegarder</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="delete_flight_question">Êtes-vous sûr de vouloir supprimer ce vol?</string>
+    <string name="flight_details_saved">Détails du vol sauvegardés!</string>
+    <string name="flight_deleted">Vol %1$s supprimé!</string>
+    <string name="flight_not_found">Vol non trouvé!</string>
+
+</resources>

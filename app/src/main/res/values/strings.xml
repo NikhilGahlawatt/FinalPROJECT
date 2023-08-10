@@ -1,3 +1,30 @@
-<resources>
-    <string name="app_name">Final Project</string>
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">FinalProject</string>
+        <string name="enter_airport_code">Enter airport code</string>
+        <string name="search">Search</string>
+        <string name="saved">Saved</string>
+
+        <string name="destination_text">Destination Goes Here</string>
+        <string name="terminal_text">Terminal: Terminal Goes Here</string>
+        <string name="gate_text">Gate: Gate Goes Here</string>
+        <string name="delay_text">Delay: Delay Goes Here</string>
+        <string name="save_details_text">Save details</string>
+
+        <string name="flight_number_label">Flight Number:</string>
+        <string name="flight_number">flight_number</string>
+        <string name="destination_label">Destination:</string>
+        <string name="destination_des">destination</string>
+        <string name="airline_logo_desc">Airline Logo</string>
+
+        <string name="help_dialog_title">Help</string>
+        <string name="help_dialog_message">"Enter the airport code and click 'Search' to fetch flights. Click 'Saved' to view saved flights."</string>
+
+        <string name="delete">Delete</string>
+        <string name="save">Save</string>
+        <string name="confirmation">Confirmation</string>
+        <string name="delete_flight_question">Are you sure you want to delete this flight?</string>
+        <string name="flight_details_saved">Flight details saved!</string>
+        <string name="flight_deleted">Flight %1$s deleted!</string>
+        <string name="flight_not_found">Flight not found!</string>
 </resources>
