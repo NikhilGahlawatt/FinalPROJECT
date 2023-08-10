@@ -10,6 +10,7 @@ import algonquin.cst2335.finalproject.CurrencyConvert.CurrencyActivity;
 import algonquin.cst2335.finalproject.R;
 
 import algonquin.cst2335.finalproject.databinding.ActivityMainBinding;
+import trivia.ui.TriviaQuestionApp;
 
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding MainBinding;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button aviation_Button = MainBinding.button;
         Button CurrencyBtn = MainBinding.button2;
+        Button QuizBtn = MainBinding.button4;
 
         aviation_Button.setOnClickListener( clk-> {
           Intent aviationPage = new Intent( MainActivity.this, AviationActivity.class);
@@ -31,6 +33,12 @@ public class MainActivity extends AppCompatActivity {
         CurrencyBtn.setOnClickListener( clk -> {
             startActivity(new Intent(MainActivity.this, CurrencyActivity.class));
         });
+
+        QuizBtn.setOnClickListener( clk -> {
+            Intent QuizPage = new Intent(MainActivity.this, TriviaQuestionApp.class);
+            startActivity(QuizPage);
+        });
+
 
 
 
