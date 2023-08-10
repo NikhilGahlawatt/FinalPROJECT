@@ -10,10 +10,11 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+
 import androidx.lifecycle.ViewModelProvider;
 
 import com.android.volley.Request;
@@ -82,8 +83,8 @@ public class CurrencyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_currency);
 
-        Toolbar currencytoolbar = findViewById(R.id.currencytoolbar);
-        setSupportActionBar(currencytoolbar);
+//        Toolbar currencytoolbar = findViewById(R.id.currencytoolbar);
+//        setActionBar(currencytoolbar);
 
         amountEditText = findViewById(R.id.amountEditText);
         sourceCurrencyEditText = findViewById(R.id.sourceCurrencyEditText);
@@ -124,7 +125,6 @@ public class CurrencyActivity extends AppCompatActivity {
         String baseCurrency = sourceCurrencyEditText.getText().toString();
         String targetCurrency = destinationCurrencyEditText.getText().toString();
         double amount = Double.parseDouble(amountEditText.getText().toString());
-
 
         String url = "https://api.getgeoapi.com/v2/currency/convert" +
                 "?api_key=" + apiKey +

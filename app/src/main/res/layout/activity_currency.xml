@@ -7,15 +7,6 @@
     android:padding="16dp"
     tools:context=".CurrencyActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/currencytoolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/purple_200">
-    </androidx.appcompat.widget.Toolbar>
-
     <!-- EditText for entering the amount of money -->
     <EditText
         android:id="@+id/amountEditText"
